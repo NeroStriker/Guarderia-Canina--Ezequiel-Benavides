@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>Contacto</title>
+    </head>
+    <body class="fondo">
+        <div class="container">
+            <header class="menu">
+                <div class="logo">
+                    <h1>Nero's Guarderia Canina</h1>
+                </div>   
+                <div>
+                    <img src="../Assets/Imagenes/logo.png" alt="logo_pagina">
+                </div>   
+                <nav class="nav"> 
+                    <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+                    <label for="nav__checkbox" class="nav__toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="menu" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="close" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </label>                   
+                    <ul class="nav__menu">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./galeria.html">Galeria</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./servicios.html">Servicios</a></li>
+                        <li><a href="./sobre-nosotros.html">Nosotros</a></li>
+                    </ul>                      
+                </nav>
+            </header>
+            <main>            
+                <form action="Link de contacto" method="get" enctype="multipart/form-data">
+                    <fieldset class="fondo__datos__contacto">
+                        <div class="contenedor__contacto">
+                            <legend class="legend__formulario">Datos de Contacto</legend>
+                            <label for="nombre">Nombre:</label>
+                            <br>
+                            <input type="text" id="nombre" name="nombre">
+                            <br>
+                            <label for="apellido">Apellido:</label>
+                            <br>
+                            <input type="text" id="apellido" name="apellido">
+                            <br>
+                            <label for="nombre-mascota">Nombre de la mascota:</label>
+                            <br>
+                            <input type="text" id="nombre-mascota" name="nombre-mascota">
+                            <br>
+                            <label for="correo">Correo:</label>
+                            <br>
+                            <input type="email" id="correo" name="correo">
+                            <br>
+                            <label for="telefono">Telefono:</label>
+                            <br>
+                            <input type="number" id="telefono" name="telefono">
+                            <br>
+                            <label for="informacion-extra">Informacion Extra:</label>
+                            <br>
+                            <textarea name="" id="informacion-extra" cols="30" rows="10" name="informacion-extra"></textarea>                            
+                            <div>Sexo de la mascota:</div>
+                            <select name="" id="">
+                                <option value="" selected disabled>Sexo de la mascota:</option>
+                                <option value="Macho">Macho</option>
+                                <option value="Hembra">Hembra</option>                                
+                            </select>
+
+                            <div>Tamaño de la mascota:</div>
+                            <select name="" id="">
+                                    <option value="" selected disabled>Tamaño de la mascota:</option>
+                                    <option value="Pequeño">Pequeño</option>
+                                    <option value="Mediano">Mediano</option>
+                                    <option value="Grande">Grande</option>
+                            </select>
+                            <p>Entiendo que existe un tiempo de demora hasta la respuesta<input type="checkbox" name="Aceptar" value="1"/></p> 
+
+                            <div></div> <br>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Resetear">
+                        </div> 
+                    </fieldset>
+                        
+                </form>                
+            </main>
+            <footer class="footer">
+                <ul class="footer__data">
+                    <li>Correo: correoejemplo@gmail.com</li>
+                    <li>Telefono: 221-555-5555</li>
+                    <li>Direccion: City Bell</li>
+                    <div class="footer__redes">
+                        <li><a href="#"><img src="../Assets/Imagenes/FacebookLogo.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="../Assets/Imagenes/WspLogo.png" alt="WhatsApp"></a></li>
+                        <li><a href="#"><img src="../Assets/Imagenes/InstagramLogo.png" alt="Instagram"></a></li>  
+                    </div> 
+                </ul>                                  
+            </footer>
+        </div>
+        
+    </body>
+</html>
