@@ -149,9 +149,18 @@ header img{
 .imagen6{
     grid-area: imagen6;
 }
+/* INICIO ANIMACION */
 .grid__galeria img{
     height: 205px;
+    transition: 0.3s ease;
 }
+.grid__galeria img:hover{ 
+    transition: 0.3s ease;   
+    transform: scale(1.1);
+}
+/*  FIN ANIMACION */
+
+
 
 @media screen and (min-width:768px) {
     .grid__galeria {
