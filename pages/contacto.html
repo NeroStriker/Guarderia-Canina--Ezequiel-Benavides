@@ -46,48 +46,47 @@
                     <fieldset class="fondo__datos__contacto">
                         <div class="contenedor__contacto">
                             <legend class="legend__formulario">Datos de Contacto</legend>
-                            <label for="nombre">Nombre:</label>
-                            <br>
-                            <input type="text" id="nombre" name="nombre">
-                            <br>
-                            <label for="apellido">Apellido:</label>
-                            <br>
-                            <input type="text" id="apellido" name="apellido">
-                            <br>
-                            <label for="nombre-mascota">Nombre de la mascota:</label>
-                            <br>
-                            <input type="text" id="nombre-mascota" name="nombre-mascota">
-                            <br>
-                            <label for="correo">Correo:</label>
-                            <br>
-                            <input type="email" id="correo" name="correo">
-                            <br>
-                            <label for="telefono">Telefono:</label>
-                            <br>
-                            <input type="number" id="telefono" name="telefono">
-                            <br>
-                            <label for="informacion-extra">Informacion Extra:</label>
-                            <br>
-                            <textarea name="" id="informacion-extra" cols="30" rows="10" name="informacion-extra"></textarea>                            
-                            <div>Sexo de la mascota:</div>
-                            <select name="" id="">
-                                <option value="" selected disabled>Sexo de la mascota:</option>
-                                <option value="Macho">Macho</option>
-                                <option value="Hembra">Hembra</option>                                
+                            <div class="row mb-3">
+                              <div class="col">
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                              </div>
+                              <div class="col">
+                                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                              </div>
+                            </div>
+                            <div class="col pt-3">
+                              <input type="text" class="form-control" placeholder="Nombre de la mascota" aria-label="Nombre de la mascota">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label"></label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label"></label>
+                              <input type="number" class="form-control" id="exampleFormControlNumber" placeholder="Numero de Telefono">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label"></label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Informacion Extra"></textarea>
+                            </div>                        
+                           
+                            <select class="form-select mb-3" aria-label="Default select example">
+                              <option selected disabled>Sexo de la mascota</option>
+                              <option value="1">Macho</option>
+                              <option value="2">Hembra</option>                              
                             </select>
-
-                            <div>Tamaño de la mascota:</div>
-                            <select name="" id="">
-                                    <option value="" selected disabled>Tamaño de la mascota:</option>
-                                    <option value="Pequeño">Pequeño</option>
-                                    <option value="Mediano">Mediano</option>
-                                    <option value="Grande">Grande</option>
+                            
+                            <select class="form-select mb-3" aria-label="Default select example">
+                              <option selected disabled>Tamaño de la mascota</option>
+                              <option value="1">Pequeño</option>
+                              <option value="2">Mediano</option>
+                              <option value="3">Grande</option>
                             </select>
                             <p>Entiendo que existe un tiempo de demora hasta la respuesta<input type="checkbox" name="Aceptar" value="1"/></p> 
-
-                            <div></div> <br>
-                            <input type="submit" value="Enviar">
-                            <input type="reset" value="Resetear">
+                            <div class="pb-3">
+                              <input type="submit" class="btn btn-primary" value="Enviar">
+                              <input type="reset" class="btn btn-primary" value="Resetear">
+                            </div>
                         </div> 
                     </fieldset>
                         
