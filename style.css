@@ -138,6 +138,12 @@ header img{
 }
 .img__article{
     height: 146px;
+    width: 100%;
+}
+
+.productos__img img{
+    height: 300px;
+    width: 100%;
 }
 @media screen and (min-width:768px) {
     .article1{
