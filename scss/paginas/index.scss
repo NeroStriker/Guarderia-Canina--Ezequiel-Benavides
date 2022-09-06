@@ -1,0 +1,44 @@
+.section{
+    background-color: $primary-color;
+    border: $secondary-color 5px groove;
+    font-family: $primary-font;
+    color: $secondary-color;
+    img{
+        height: 250px;
+        border-radius: 50%;
+        transition: 0.4s ease;
+        &:active{
+            transform: rotate(20deg);
+        }
+    }
+
+}
+.carousel-caption{
+    background-color: #00000088;  
+      
+}
+@media screen and (min-width:768px) {
+    .section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img{
+            height: 400px;
+        }
+    }
+  
+}
+@media screen and (min-width:768px) {
+    .carousel-item img{
+        height: 500px;
+        object-fit: cover;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    .carousel-item img{
+        height: 700px;
+        object-fit: cover;
+    }
+    
+}

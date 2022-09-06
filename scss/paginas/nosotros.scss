@@ -1,0 +1,31 @@
+.fondo__main{
+    background-color: $primary-color;
+    border: $secondary-color 5px groove;
+    color: $secondary-color;
+    font-family: $primary-font;
+    text-align: center;
+}
+.img__portada{
+    height: 232px;
+    width: 100%;
+}
+@media screen and (min-width:1200px) {
+    .img__portada{
+        height: 510px;
+    }
+    
+}
+.card{
+    color: #000000;
+    transition: 0.4s ease;
+    &:active{
+        transform: scale(1.1);
+    }
+}
+   
+
+.orden-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

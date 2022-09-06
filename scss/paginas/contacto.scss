@@ -1,0 +1,35 @@
+.fondo__datos__contacto{
+    background-color: $primary-color;
+    border: $secondary-color 5px groove;
+    display: flex;
+    justify-content: center;
+    color: $secondary-color;
+    font-family: sans-serif;
+    text-align: center;
+}
+.legend__formulario{
+    font-weight: 700;
+}
+.imagen__contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1rem;
+}
+.imagen__contacto img{
+    height: 500px;
+
+}
+.btn{
+    animation: fadeBottom 1s ease;
+}
+@keyframes fadeBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(30%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

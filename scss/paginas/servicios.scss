@@ -1,0 +1,55 @@
+.article{
+    background-color: $primary-color;
+    border: $secondary-color 5px groove;
+    color: $secondary-color;
+    font-family: $primary-font;
+    text-align: center;
+}
+.img__article{
+    height: 146px;
+    width: 100%;
+}
+
+.productos__img img{
+    height: 300px;
+    width: 100%;
+}
+.imagenPerroPequeño{
+    animation: fadeLeft 1.4s ease;
+}
+@keyframes fadeLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+}
+.imagenPerroGrande{
+    animation: fadeRight 1.4s ease;
+}
+@keyframes fadeRight{
+    0%{
+        opacity: 0;
+        transform: translateX(30%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+}
+@media screen and (min-width:768px) {
+    .article1{
+        display: flex;
+        flex-direction: row;
+    }
+    .article2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+  
+}
