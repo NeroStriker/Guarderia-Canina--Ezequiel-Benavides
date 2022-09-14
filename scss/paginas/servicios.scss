@@ -1,14 +1,16 @@
 .article{
-    background-color: $primary-color;    
-    color: $secondary-color;
+    background-color:map-get($color, primary);    
+    color: map-get($color, secondary);
     font-family: $primary-font;
     text-align: center;
 }
-.img__article{
-    height: 146px;
-    width: 100%;
+@mixin tamaño($width, $height) {
+    height: $height;
+    width: $width;    
 }
-
+.img__article{
+    @include tamaño(100%, 200px)
+}
 .productos__img img{
     height: 460px;
     width: 100%;

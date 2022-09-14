@@ -1,6 +1,6 @@
 .imagenes__galeria{
-    background-color: $primary-color;
-    color: $secondary-color;
+    background-color:map-get($color, primary);
+    color: map-get($color, secondary);
     font-family: $primary-font;
     font-size: 15px;
     text-align: center;

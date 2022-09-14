@@ -7,10 +7,17 @@
 .fondo {
   background-image: url(../Assets/Imagenes/Fondo.png); }
 
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #ffffff; }
+
 .section {
   background-color: #a53ca5;
   font-family: sans-serif;
-  color: #ffffff; }
+  color: #ffffff padding-bottom 20px; }
+  .section p {
+    color: #ffffff; }
   .section img {
     height: 250px;
     border-radius: 50%;
@@ -60,8 +67,21 @@
 .imagen__contacto img {
   height: 500px; }
 
-.btn {
+.btn-custom, .btn-enviar, .btn-reset {
+  font-family: sans-serif;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 30px;
+  width: 90px;
   animation: fadeBottom 1s ease; }
+
+.btn-enviar {
+  background-color: #2323ff; }
+
+.btn-reset {
+  background-color: #fa4242; }
 
 @keyframes fadeBottom {
   0% {
@@ -126,7 +146,7 @@
   text-align: center; }
 
 .img__article {
-  height: 146px;
+  height: 200px;
   width: 100%; }
 
 .productos__img img {
@@ -190,8 +210,8 @@
 
 header {
   background-color: #a53ca5;
-  font-family: sans-serif;
   color: #ffffff;
+  font-family: sans-serif;
   border-bottom: 3px #ffffff solid;
   margin-bottom: 5px; }
   header li {

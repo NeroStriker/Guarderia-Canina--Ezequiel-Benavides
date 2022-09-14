@@ -1,8 +1,8 @@
 header{
-    background-color: $primary-color;      
-    font-family: $primary-font;    
-    color: $secondary-color; 
-    border-bottom: 3px $secondary-color solid;
+    background-color:map-get($color, primary);    
+    color: map-get($color, secondary);
+    font-family: $primary-font;     
+    border-bottom: 3px map-get($color, secondary) solid;
     margin-bottom: 5px;    
     li{
         list-style-type: none;

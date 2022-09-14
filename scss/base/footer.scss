@@ -1,12 +1,12 @@
 .footer{
-    background-color: $primary-color;
-    color: $secondary-color;
+    background-color:map-get($color, primary);    
+    color: map-get($color, secondary);
     display: flex;
     flex-flow: row wrap;
     font-family: sans-serif;
     font-size: 15px; 
     margin-top: 5px;
-    border-top: 3px $secondary-color solid;
+    border-top: 3px map-get($color, secondary) solid;
     li{
         list-style-type: none;
     }   
