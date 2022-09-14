@@ -67,21 +67,8 @@ h1 {
 .imagen__contacto img {
   height: 500px; }
 
-.btn-custom, .btn-enviar, .btn-reset {
-  font-family: sans-serif;
-  text-align: center;
-  color: #ffffff;
-  border-radius: 10px;
-  border: 1px solid black;
-  height: 30px;
-  width: 90px;
+.btn-custom {
   animation: fadeBottom 1s ease; }
-
-.btn-enviar {
-  background-color: #2323ff; }
-
-.btn-reset {
-  background-color: #fa4242; }
 
 @keyframes fadeBottom {
   0% {

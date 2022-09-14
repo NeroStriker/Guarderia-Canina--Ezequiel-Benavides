@@ -19,14 +19,7 @@
     height: 500px;
 
 }
-.btn-custom{
-    font-family: $primary-font;
-    text-align: center;
-    color:map-get($color, secondary );  
-    border-radius: 10px;
-    border: 1px solid black;  
-    height: 30px;
-    width: 90px;
+.btn-custom{    
     animation: fadeBottom 1s ease;
 }
 
