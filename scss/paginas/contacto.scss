@@ -29,14 +29,7 @@
     width: 90px;
     animation: fadeBottom 1s ease;
 }
-.btn-enviar{
-    @extend .btn-custom;
-    background-color: #2323ff;
-}
-.btn-reset{
-    @extend .btn-custom;
-    background-color: #fa4242;
-}
+
 @keyframes fadeBottom{
     0%{
         opacity: 0;
