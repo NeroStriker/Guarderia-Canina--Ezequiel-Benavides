@@ -9,19 +9,23 @@
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
-  color: #ffffff; }
+  font-family: "Nunito", sans-serif;
+  background-color: #a53ca5;
+  color: #ffffff;
+  margin-bottom: 0px; }
 
 .section {
   background-color: #a53ca5;
-  font-family: sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #ffffff padding-bottom 20px; }
   .section p {
     color: #ffffff; }
   .section img {
+    padding: 15px;
     height: 250px;
     border-radius: 50%;
-    transition: 0.4s ease; }
+    transition: 0.4s ease;
+    object-fit: cover; }
     .section img:active {
       transform: rotate(20deg); }
 
@@ -81,7 +85,7 @@ h1 {
 .imagenes__galeria {
   background-color: #a53ca5;
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 15px;
   text-align: center; }
 
@@ -104,7 +108,7 @@ h1 {
 .fondo__main {
   background-color: #a53ca5;
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: "Nunito", sans-serif;
   text-align: center; }
 
 .img__portada {
@@ -123,14 +127,21 @@ h1 {
 
 .orden-cards {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center; }
 
 .article {
   background-color: #a53ca5;
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: "Nunito", sans-serif;
+  text-align: justify;
+  padding: 5px; }
+
+h2 {
   text-align: center; }
+
+.precioProductos {
+  font-size: 2rem; }
 
 .img__article {
   height: 200px;
@@ -138,7 +149,8 @@ h1 {
 
 .productos__img img {
   height: 460px;
-  width: 100%; }
+  width: 100%;
+  object-fit: cover; }
 
 .imagenPerroPequeño {
   animation: fadeLeft 1.4s ease; }
@@ -177,7 +189,7 @@ h1 {
   flex-flow: row wrap;
   font-family: sans-serif;
   font-size: 15px;
-  margin-top: 5px;
+  margin-top: 25px;
   border-top: 3px #ffffff solid; }
   .footer li {
     list-style-type: none; }
@@ -198,9 +210,9 @@ h1 {
 header {
   background-color: #a53ca5;
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: "Nunito", sans-serif;
   border-bottom: 3px #ffffff solid;
-  margin-bottom: 5px; }
+  margin-bottom: 25px; }
   header li {
     list-style-type: none;
     font-size: 15px; }

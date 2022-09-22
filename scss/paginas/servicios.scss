@@ -2,8 +2,16 @@
     background-color:map-get($color, primary);    
     color: map-get($color, secondary);
     font-family: $primary-font;
+    text-align: justify;
+    padding: 5px;    
+}
+h2{
     text-align: center;
 }
+.precioProductos{
+    font-size: 2rem;
+}
+
 @mixin tamaño($width, $height) {
     height: $height;
     width: $width;    
@@ -14,6 +22,7 @@
 .productos__img img{
     height: 460px;
     width: 100%;
+    object-fit: cover;    
 }
 .imagenPerroPequeño{
     animation: fadeLeft 1.4s ease;

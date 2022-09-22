@@ -1,7 +1,9 @@
 h1{
     text-align: center;
     font-family: $primary-font;
-    color: map-get($color, secondary)
+    background-color: map-get($color, primary);
+    color: map-get($color, secondary);
+    margin-bottom: 0px;    
 }
 .section{
     background-color: map-get($color, primary);
@@ -12,9 +14,11 @@ h1{
             color: map-get($color, secondary);
         }
         img{
+        padding: 15px;    
         height: 250px;
         border-radius: 50%;
         transition: 0.4s ease;
+        object-fit: cover;
         &:active{
             transform: rotate(20deg);
         }
